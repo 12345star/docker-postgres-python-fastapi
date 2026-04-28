@@ -5,7 +5,7 @@ Este proyecto implementa una aplicación **FastAPI** con estructura modular, CRU
 ---
 ## Enlaces
 
-- **Página Web:** [Sitio web demo](https://12345star.github.io/ocker-postgres-python-fastapi)
+- **Página Web:** [Sitio web demo](https://12345star.github.io/docker-postgres-python-fastapi/)
 
 ---
 # 👨‍💻 Autor
