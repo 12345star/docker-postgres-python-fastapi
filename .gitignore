@@ -1,0 +1,33 @@
+## 📄 .gitignore
+```gitignore
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Virtualenv
+env/
+venv/
+.venv/
+.env
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Docker
+*.pid
+*.sock
+
+# Node / Frontend (si aplica)
+node_modules/
+dist/
+
+# GitHub Pages build
+out/
+build/
