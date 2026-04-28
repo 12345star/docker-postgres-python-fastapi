@@ -13,7 +13,7 @@
   <meta property="og:description" content="Proyecto FASTAPI con CRUD, Docker y despliegue en GitHub Pages. Aprende a crear APIs modernas y escalables con Python.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://github.com/12345star/docker-postgres-python-fastapi">
-  <meta property="og:image" content="img/Estructura_Proyecto.png">
+  <meta property="og:image" content="./img/Estructura_Proyecto.webp">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="FASTAPI Project | Backend con Docker y GitHub Pages">
@@ -36,7 +36,17 @@
   <main>
     <h2>Sobre el proyecto</h2>
     <p>Este proyecto implementa una aplicación <strong>FastAPI</strong> con CRUD de usuarios, Docker y despliegue en GitHub Pages.</p>
-    <img src="img/Estructura_Proyecto.png" alt="Estructura del proyecto FASTAPI">
+    
+    <picture>
+      <!-- Imagen para móviles -->
+      <source media="(max-width: 600px)" srcset="./img/Estructura_Proyecto-mobile.webp">
+      <!-- Imagen para tablets -->
+      <source media="(max-width: 1024px)" srcset="./img/Estructura_Proyecto-tablet.webp">
+      <!-- Imagen por defecto (escritorio o fallback) -->
+      <img loading="lazy" src="./img/Estructura_Proyecto.webp" alt="Estructura del proyecto FASTAPI"
+        class="img-fluid" data-aos="fade-up" data-aos-duration="2000" width="100%" height="100%">
+    </picture>
+
     <h2>Características</h2>
     <ul>
       <li>API REST con FastAPI</li>
